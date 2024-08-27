@@ -4,6 +4,9 @@ public class Main {
         System.out.println(hasTeen(46, 30, 45));
         System.out.println(hasTeen(27, 30, 45));
         System.out.println(hasTeen(50, 30, 16));
+        System.out.println(isTeen(50));
+        System.out.println(isTeen(15));
+        System.out.println(isTeen(14));
 
 
     }
@@ -22,5 +25,12 @@ public class Main {
         }
 
 
+    }
+    private static boolean isTeen( int num4){
+        if (num4 >= 13 && num4 <= 19){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
